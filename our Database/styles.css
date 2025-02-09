@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0077b6;
+    color: white;
+  }
+  
+  /* Main Page */
+  .main-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .blog-section {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .post-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .post-form input,
+  .post-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .post-form button {
+    padding: 10px;
+    background-color: #023e8a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .post-form button:hover {
+    background-color: #005f8a;
+  }
+  
+  .post {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
